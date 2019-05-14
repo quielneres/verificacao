@@ -1,0 +1,3 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule (.*) http://tooplife.com.br/afiliado/$1 [R=301,L]

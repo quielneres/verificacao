@@ -1,0 +1,6 @@
+[27-Nov-2018 12:52:32 America/Chicago] PHP Strict Standards:  Redefining already defined constructor for class Object in /home3/friendfr/tooplife.com.br/sistema/cake/libs/object.php on line 62
+[27-Nov-2018 12:52:32 America/Chicago] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /home3/friendfr/tooplife.com.br/sistema/cake/libs/inflector.php on line 130
+[27-Nov-2018 12:52:32 America/Chicago] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /home3/friendfr/tooplife.com.br/sistema/cake/libs/configure.php on line 135
+[27-Nov-2018 12:52:32 America/Chicago] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /home3/friendfr/tooplife.com.br/sistema/cake/libs/configure.php on line 225
+[27-Nov-2018 12:52:32 America/Chicago] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /home3/friendfr/tooplife.com.br/sistema/cake/libs/configure.php on line 893
+[27-Nov-2018 12:52:32 America/Chicago] PHP Deprecated:  Assigning the return value of new by reference is deprecated in /home3/friendfr/tooplife.com.br/sistema/cake/libs/configure.php on line 933
