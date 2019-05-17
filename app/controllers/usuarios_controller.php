@@ -718,16 +718,17 @@ if (empty($this->data)) {
                 }
             }
 
-            $secret = '6LfAepgUAAAAAEldjna7rbmQuQwffEj2ZZoxiDs_';
-            $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $this->params['form']['g-recaptcha-response']);
-            $responseData = json_decode($verifyResponse);
+            $this->Session->write('acoes', $acoes);
+            $this->redirect(array('controller' => 'Usuarios', 'action' => 'principal'));
 
-            if ($responseData->success) {
-                $this->Session->write('acoes', $acoes);
-                $this->redirect(array('controller' => 'Usuarios', 'action' => 'principal'));
-            } else {
-                $this->addMessageError(__('A verificação do robô falhou. Tente novamente.', true));
-            }
+//            $secret = '6LfAepgUAAAAAEldjna7rbmQuQwffEj2ZZoxiDs_';
+//            $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $this->params['form']['g-recaptcha-response']);
+//            $responseData = json_decode($verifyResponse);
+//
+//            if ($responseData->success) {
+//            } else {
+//                $this->addMessageError(__('A verificação do robô falhou. Tente novamente.', true));
+//            }
         }
 
 
